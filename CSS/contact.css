@@ -1,0 +1,56 @@
+.contact{
+    padding-top: 131px;
+    font-size: 16px;
+}
+
+.contact h1 {
+    margin-top: 40px;
+}
+
+.contact h3 {
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.mail,address{
+    color: orange;
+    font-weight: bold;
+}
+
+address {
+    margin-bottom: 40px;
+}
+
+.contact-form p {
+    margin-bottom: 2px;
+}
+input,textarea{
+    width:50%;
+    margin:10px 0 20px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+
+.contact-submit{
+    background-color:#dee7ec;
+    margin-bottom: 100px;
+    cursor: pointer;
+    box-shadow: 0 7px #b8b8b9;
+}
+  
+.contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}

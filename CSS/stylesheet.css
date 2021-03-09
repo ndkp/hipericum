@@ -1,0 +1,42 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    color: dimgray;
+    background-color: #FAF4E7;
+  }
+
+.container{
+    position: relative;
+}
+
+img{
+    width: 50%;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+ul{
+    font-size: 24px;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:link {
+    color: grey;
+  }
+
+a:hover {
+    color:  darkslategray;
+    transform: scale(1.1, 1.1);
+  }
