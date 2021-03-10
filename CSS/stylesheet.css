@@ -1,7 +1,6 @@
 body {
     font-family: monospace;
     text-align: center;
-    color: dimgray;
     background-color: #FAF4E7;
   }
 
@@ -30,13 +29,21 @@ ul{
 a {
     text-decoration: none;
     display: inline-block;
-}
+  }
 
-a:link {
+  a:link {
     color: grey;
   }
-
-a:hover {
-    color:  darkslategray;
-    transform: scale(1.1, 1.1);
+  
+  a:visited {
+    color:gray;
   }
+  
+  a:hover {
+    color:  darkslategray;
+    transform: scale(1.2, 1.2);
+    transition: 1.0s;
+  }
+
+
+
