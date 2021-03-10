@@ -8,6 +8,7 @@ li {
   list-style: none;
 }
 
+/* ↓ヘッダー */
 header{
   background-color: #FDFAF3;
   width: 100%;
@@ -41,7 +42,9 @@ header{
   padding: 20px;
   margin-top: 32px;
 }
+/* ↑ヘッダー */
 
+/* ↓sns colorcode */
 .twitter{
   color:#1DA1F2;
 }
@@ -51,6 +54,16 @@ header{
   padding-right: 10px;
 }
 
+.instagram{
+  color: #CF2E92;
+}
+
+.tiktok{
+  color: #000;
+}
+/* ↑sns colorcode */
+
+/* ↓links action */
 .links a{
   position: relative;
   display: inline-block;
@@ -85,18 +98,23 @@ a:link {
 a:visited {
   color: dimgray;
 }
+
 a:hover {
   color:  darkslategray;
 }
+
 a:active {
   color:  darkslategray;
 }
-
+/* ↑links action */
 
 main
 {
  background-color: #FAF4E7;
- padding-top: 131px;
+}
+
+#pagetop{
+  padding-top: 250px;
 }
 
 .artist-img{
@@ -109,10 +127,12 @@ main
   height: 880px;
 }
 
-h1{
+#title{
   display: inline-block;
   border-bottom: 1px solid dimgray;
   padding-bottom: 10px;
+  margin-bottom: 40px;
+  font-size: 32px;
 }
 
 .sns{
