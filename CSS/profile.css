@@ -2,15 +2,6 @@ main{
     height: 860px;
 }
 
-.profile{
-  padding-top: 131px;
-  font-size: 16px;
-}
-
-.profile h1 {
-  margin: 40px 0 ;
-}
-
 table th{
     padding: 6px 16px;
     font-size: 12px;
@@ -119,10 +110,11 @@ button{
     border-radius: 50%;
     transition: all 0.6s ease 0s;
   }
-  .kakudai:hover {
+
+.kakudai:hover {
     cursor: pointer;
     transform: scale(1.5, 1.5);
-  }
+}
 
 .member-sns{
     display: flex;
@@ -134,10 +126,4 @@ button{
     padding: 15px;
 }
 
-.instagram{
-    color: #CF2E92;
-}
 
-.tiktok{
-    color: #000;
-}
