@@ -26,9 +26,15 @@ table{
 margin: 0 auto;
 }
 
-th{
+.single{
     background-color:skyblue;
     color: royalblue;
+    font-size: 12px;
+}
+
+.albam{
+    background-color: #C4A5F7;
+    color: rebeccapurple;
     font-size: 12px;
 }
 
