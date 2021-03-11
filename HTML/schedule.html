@@ -6,12 +6,23 @@
     <link rel="stylesheet" href="../CSS/top.css">
     <link rel="stylesheet" href="../CSS/schedule.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    <link href='../lib/fullcalendar.css' rel='stylesheet' />
-    <script src="../lib/moment.min.js"></script>
-    <script src="../lib/jquery.min.js"></script>
-    <script src="../fullcalendar.min.js"></script>
-    <script src="../gcal.min.js"></script>
-    <script src='../locale/ja.js'></script>  </head>
+    <link href='../lib/main.css' rel='stylesheet' />
+    <script src='../lib/main.js'></script>
+    <script type='text/javascript'>
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          googleCalendarApiKey: 'AIzaSyBCSlo5E13JaKg_1T6bNeOVfHXC7DWdG-A',
+          eventSources: [
+            {
+              googleCalendarId: 'info.hipericum@gmail.com'
+            }
+          ]
+        });
+        calendar.render();
+      });
+    </script>
+  </head>
 
   <body>
     <header>
