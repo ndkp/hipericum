@@ -1,5 +1,19 @@
 
-  $(document).ready(function() {
+       document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          googleCalendarApiKey: 'AIzaSyBCSlo5E13JaKg_1T6bNeOVfHXC7DWdG-A',
+          eventSources: [
+            {
+              googleCalendarId: 'info.hipericum@gmail.com'
+            }
+          ]
+        });
+        calendar.render();
+      });
+      
+      
+      $(document).ready(function() {
     $('#calendar').fullCalendar({
       header: {
         left: 'prev,next today',
@@ -18,4 +32,24 @@
         $('#loading').toggle(bool);
       }
     });
+  });
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      firstDay: 1,
+      headerToolbar: {
+        left: "dayGridMonth,listMonth",
+        center: "title",
+        right: "today prev,next"
+      },
+      buttonText: {
+        today: '今月',
+        month: '月',
+        list: 'リスト'
+      },
+    });
+    //キャンバスにレンダリング
+    calendar.render();
   });

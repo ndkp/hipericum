@@ -5,6 +5,9 @@ body {
     font-size: 9px;
   }
 
+  main{
+    height: 1400px;
+}
   #loading {
     display: none;
     position: absolute;
