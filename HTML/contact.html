@@ -37,15 +37,18 @@
             <p class="mail">info.hipericum@gmail.com</p>
             <address> <p>合同会社　モコ・プロ <br>
               〒166-0001　東京都杉並区阿佐ヶ谷北5-42-6</p> </address> 
-           <div class="contact-form">
+          <div class="contact-form">
+           <form action="https://formspree.io/f/mrgonwq" method="POST">
             <p>お問い合わせ内容（必須）</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="contact" id="" cols="30" rows="10"></textarea>
             <p>氏名（必須）</p>
-            <input type="text">
+            <input type="text" name="name">
             <p>メールアドレス（必須）</p>
-            <input type="email"> <br>
-            <input class="btn contact-submit" type="submit" name="mail_form" id="" value="送信" >            
-           </div> 
+            <input type="email" name="address"> <br>
+            <input class="btn contact-submit" type="submit" name="mail_form" id="" value="送信" > 
+            <input type="hidden" name="_next" value=".html" />
+           </form>
+          </div> 
         </div>
     </main>
 
