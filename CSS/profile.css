@@ -12,18 +12,18 @@ table td{
 }
 
 .thr{
-    background-color: #C4A5F7;
-    color: rebeccapurple;
+    background-color: rgb(196, 165, 247);
+    color: rgb(102, 51, 153);
 }
 
 .thn{
-    background-color: #F5EB9C;
-    color: #FF9800;
+    background-color: rgb(245, 235, 156);
+    color: rgb(255, 152, 0);
 }
 
 .tha{
-    background-color: #A2CFF0;
-    color: cornflowerblue;
+    background-color: rgb(162, 207, 240);
+    color: rgb(100, 149, 237);
 }
 
 .carousel {

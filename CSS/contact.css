@@ -25,14 +25,14 @@ input,textarea{
     margin:10px 0 20px;
     padding:20px;
     font-size:18px;
-    border:1px solid #dee7ec;
+    border:1px solid rgb(222, 231, 236);
   }
 
 .contact-submit{
-    background-color:#dee7ec;
+    background-color:rgb(222, 231, 236);
     margin-bottom: 100px;
     cursor: pointer;
-    box-shadow: 0 7px #b8b8b9;
+    box-shadow: 0 7px rgb(184, 184, 185);
 }
   
 .contact-submit:active {
