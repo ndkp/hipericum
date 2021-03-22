@@ -22,7 +22,7 @@ main{
     transform: scale(1.1, 1.1);
   }
 
-table{
+.cd-info {
 margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ td{
     font-weight: bold;
 }
 
-/* モーダル */
+/* ↓モーダル */
 .cd-modal-wrapper {
     position: fixed;
     top: 0;
@@ -58,62 +58,64 @@ td{
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
     
-    display: none; */
+    /*display: none; */
   }
   
   .modal {
     position: absolute;
-    top: 20%;
-    left: 34%;
-    background-color: #e6ecf0;
+    top: 5%;
+    left: 5%;
+    background-color:rgba(221, 237, 247, 0.95);
     padding: 20px 0 40px;
     border-radius: 10px;
-    width: 450px;
-    height: auto;
-    text-align: center;
+    width: 90%;
+    height: 80%;
   }
   
-  .fa-times {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    color: rgba(128, 128, 128, 0.46);
-    cursor: pointer;
+  .modal-cd{
+      float: left;
+      padding-left: 20px;
   }
-  
-  #signup-form, #login-form {
-    width: 100%;
+
+  .front{
+    width: 23%;
+}
+
+  .back{
+    width: 18%;
   }
-  
-  #signup-form h2, #login-form h2 {
-    color: #5f5d60;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
-  }
-  
-  #signup-form input, #login-form input {
-    width: 320px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    padding: 12px 12px;
-    border: 1px solid #d0d5d8;
-    border-radius: 5px;
-  }
-  
-  #submit-btn {
-    display: inline-block;
-    padding: 14px 140px;
-    background-color: #5dca88;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    margin: 10px auto;
-    cursor: pointer;
-  }    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 100;
+
+#modal-header{
+    height: 60%;
+}  
+
+#modal-main{
+    height: 40%;
+}
+
+.modal-right{
+    position: relative;
+}
+
+.cdtitle{
+    border-bottom: 1px solid rgba(180, 187, 192, 0.8);
+    width: 550px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.credit{
+    font-size: small;
+    margin-left: 8px;
+}
+
+.modal-table{
+    position: relative;
+    clear: both;
+    text-align: left;
+}
+
+.modal-cd-link{
+    background-color: rgb(196, 165, 247);
+    padding: 5px;
 }
