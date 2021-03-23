@@ -58,21 +58,29 @@ td{
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
     
-    /*display: none; */
+    display: none;
   }
   
   .modal {
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 15%;
     background-color:rgba(221, 237, 247, 0.95);
     padding: 20px 0 40px;
     border-radius: 10px;
-    width: 90%;
+    width: 70%;
     height: 80%;
   }
-  
-  .modal-cd{
+
+  .fa-times {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+
+    .modal-cd{
       float: left;
       padding-left: 20px;
   }
@@ -88,14 +96,6 @@ td{
 #modal-header{
     height: 60%;
 }  
-
-#modal-main{
-    height: 40%;
-}
-
-.modal-right{
-    position: relative;
-}
 
 .cdtitle{
     border-bottom: 1px solid rgba(180, 187, 192, 0.8);

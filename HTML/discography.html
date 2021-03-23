@@ -38,7 +38,7 @@
           <ul class="cd-list">
             <li>
               <div class="cds">
-               <img class="cd-img" id="js-cd-img01" src="../IMG/cd01.png" alt="cd01">
+               <img class="cd-img" id="js-modal-show01" src="../IMG/cd01front.png" alt="cd01">
                <table class="cd-info">
                 <tr>
                   <!-- CD形態　-->
@@ -57,7 +57,7 @@
             </li>  
             <li>
               <div class="cds">
-               <img class="cd-img" id="js-cd-img02" src="../IMG/cd01.png" alt="cd02">
+               <img class="cd-img" id="js-modal-show02" src="../IMG/dummycd.png" alt="cd02">
                <table class="cd-info">
                 <tr>
                   <!-- CD形態　-->
@@ -76,7 +76,7 @@
             </li>  
             <li>
               <div class="cds">
-               <img class="cd-img" id="js-cd-img03" src="../IMG/cd01.png" alt="cd03">
+               <img class="cd-img" id="js-modal-show03" src="../IMG/dummycd.png" alt="cd03">
                <table class="cd-info">
                 <tr>
                   <!-- CD形態　-->
@@ -95,7 +95,7 @@
             </li>  
             <li>
               <div class="cds">
-               <img class="cd-img " id="js-cd-img04" src="../IMG/cd01.png" alt="cd04">
+               <img class="cd-img" id="js-modal-show04" src="../IMG/dummycd.png" alt="cd04">
                <table class="cd-info">
                 <tr>
                   <!-- CD形態　-->
@@ -116,10 +116,15 @@
         </div>
 
         <!-- CDモーダル -->
-        <div class="cd-modal-wrapper" id="cd-modal1">
+        <div class="cd-modal-wrapper" id="cd-modal01">
           <div class="modal">
+            <!-- 閉じるボタン -->
+            <div class="close-modal">
+              <i class="fa fa-2x fa-times"></i>
+            </div>
+            <!-- モーダル上部 -->
             <div id="modal-header">
-              <img class="modal-cd front" src="../IMG/cd01.png" alt="front">
+              <img class="modal-cd front" src="../IMG/cd01front.png" alt="front">
               <table class="modal-cd">
                 <tr>
                   <th class="single">Single</th>
@@ -137,8 +142,9 @@
                 </tr>
                 </table>
             </div>
+            <!-- モーダル下部 -->
             <div id="modal-main">
-              <img class="modal-cd back" src="../IMG/cd01.png" alt="back">
+              <img class="modal-cd back" src="../IMG/cd01back.png" alt="back">
               <div class="modal-cd modal-right">
                 <h1 class="modal-cd cdtitle">リリックノート / You Love!</h1>
                   <table class="modal-table">
@@ -172,5 +178,8 @@
         <a href="top.html"><img class="footer-logo" src="../IMG/emblem.png" alt="飛ぺりか夢公式HP"></a>
     </footer>
 
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../JS/discography.js"></script>
   </body>
 </html>
