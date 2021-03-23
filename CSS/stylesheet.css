@@ -45,5 +45,7 @@ a {
     transition: 1.0s;
   }
 
-
+.mrgleft{
+  margin-left: 16px;
+}
 
