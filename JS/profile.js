@@ -1,1 +1,6 @@
-$('.carousel-area').slick();
+$(function() {
+    $('.slider').slick({
+      dots: true,
+      dotsClass: 'slide-dots'
+    });
+  });

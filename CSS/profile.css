@@ -2,6 +2,7 @@ main{
     height: 860px;
 }
 
+/* ↓まるい画像3つ */
 .roundprofile{
     width: 48px;
     padding-right: 20px;
@@ -23,7 +24,9 @@ main{
     cursor: pointer;
     transform: scale(1.5, 1.5);
 }
+/* ↑まるい画像3つ */
 
+/* ↓プロフィールテーブル */
 table th{
     padding: 6px 16px;
     font-size: 12px;
@@ -47,44 +50,51 @@ table td{
     background-color: rgb(162, 207, 240);
     color: rgb(100, 149, 237);
 }
+/* ↑プロフィールテーブル */
 
-.carousel {
-    width: 680px;
-    margin: 0 auto;
-    height: calc(600px * 0.5625);
-    position: relative;
-    overflow: hidden;
-  }
-
-.carousel-area {
-/* (.carousel-listの幅＋margin）×スライド枚数 
-    width: 1890px; */
-    height: 100%;
-    display: flex;
-    position: absolute;
-    }
-    
-.carousel-list {
-    width: 550px;
-}
-
-.carousel-img {
+.profile-img {
     width: 50%;
     height: 100%;
-}
+  }
 
 .profile-list{
-    float: right;
-    padding-top: 30px;
+    padding: 30px 0 0 50px;
 }
 
+/* 各種SNS */
 .member-sns{
     display: flex;
     position: absolute;
     font-size: 24px;
+    margin-top: 20px;
 }
 
 .member-sns a{
     padding: 15px;
 }
-    
+
+
+.slide-item {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider .slick-prev {
+    left: 1px;
+    z-index: 99;
+  }
+  .slider .slick-next {
+    right: 1px;
+  }
+  .slick-prev:before, .slick-next:before{
+    color: black!important;
+  }
+ 
+
+  .slide-item .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
