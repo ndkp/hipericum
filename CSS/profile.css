@@ -56,35 +56,35 @@ table td{
     overflow: hidden;
   }
 
-  .carousel-area {
-    /* (.carousel-listの幅＋margin）×スライド枚数 
-        width: 1890px; */
-        height: 100%;
-        display: flex;
-        position: absolute;
-      }
-      
-      .carousel-list {
-        width: 550px;
-      }
-      
-      .carousel-img {
-        width: 50%;
-        height: 100%;
-      }
-    
-    .profile-list{
-        float: right;
-        padding-top: 30px;
+.carousel-area {
+/* (.carousel-listの幅＋margin）×スライド枚数 
+    width: 1890px; */
+    height: 100%;
+    display: flex;
+    position: absolute;
     }
+    
+.carousel-list {
+    width: 550px;
+}
 
-    .member-sns{
-        display: flex;
-        position: absolute;
-        font-size: 24px;
-    }
-    
-    .member-sns a{
-        padding: 15px;
-    }
+.carousel-img {
+    width: 50%;
+    height: 100%;
+}
+
+.profile-list{
+    float: right;
+    padding-top: 30px;
+}
+
+.member-sns{
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+}
+
+.member-sns a{
+    padding: 15px;
+}
     
