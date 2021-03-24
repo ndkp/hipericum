@@ -1,0 +1,27 @@
+main{
+    height: 860px;
+}
+
+table th{
+    padding: 6px 16px;
+    font-size: 12px;
+}
+
+table td{
+    padding-left: 10px;
+}
+
+.thr{
+    background-color: rgb(196, 165, 247);
+    color: rgb(102, 51, 153);
+}
+
+.thn{
+    background-color: rgb(245, 235, 156);
+    color: rgb(255, 152, 0);
+}
+
+.tha{
+    background-color: rgb(162, 207, 240);
+    color: rgb(100, 149, 237);
+}
