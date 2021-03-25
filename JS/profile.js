@@ -1,6 +1,5 @@
 $(function() {
-    $('.slider').slick({
-      dots: true,
-      dotsClass: 'slide-dots'
+    $('#slider').slick({
+      // dots: true,
     });
   });
