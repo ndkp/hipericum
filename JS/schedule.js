@@ -5,7 +5,7 @@
           headerToolbar: {
             left: 'prev,next today',
             center: 'title',
-            right: 'dayGridMonth,listYear',
+            right: 'dayGridMonth,listMonth',
           },
           googleCalendarApiKey: 'AIzaSyBCSlo5E13JaKg_1T6bNeOVfHXC7DWdG-A',
           eventSources: [
