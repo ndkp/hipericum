@@ -14,16 +14,6 @@
             }
           ]
         });
-
-        
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          googleCalendarApiKey: 'AIzaSyBCSlo5E13JaKg_1T6bNeOVfHXC7DWdG-A',
-          eventSources: [
-            {
-              googleCalendarId: 'info.hipericum@gmail.com'
-            }
-          ]
-        });
         
         calendar.render();
       });
