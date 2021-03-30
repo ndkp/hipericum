@@ -20,5 +20,6 @@
 }
 
 .movie{
-  width:525px; height:275px;
+  background-color: white;
+  width:50%;
 }

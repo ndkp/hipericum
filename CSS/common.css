@@ -21,16 +21,16 @@
     border-bottom: 1px solid rgb(240, 236, 236);
     position:fixed;
     top:0;
+    left: 0;
     z-index:10;
   }
   
   .header-logo{
     float: left;
-    padding-left: 24px;
     width: 25%;
     position: absolute;
     top: 20%;
-    left: 0;
+    left: 3%;
   }
   
   .stripe{
@@ -47,8 +47,17 @@
     padding: 20px;
     margin-top: 32px;
   }
+
+  #menu-icon{
+    color: dimgray;
+    float: right;
+    font-size: 76px;
+    padding: 36px ;  
+    display: none !important ; 
+  }
   /* ↑ヘッダー */
   
+
   /* ↓sns colorcode */
   .twitter{
     color:rgb(29, 161, 242);
@@ -68,6 +77,7 @@
   }
   /* ↑sns colorcode */
   
+
   /* ↓links action */
   .links a{
     position: relative;

@@ -1,0 +1,31 @@
+/* タブレット向け(1000px以下)レイアウト */
+
+@media only screen and (max-width: 1024px){
+
+    /* ハンバーガーメニュー */
+    .header-logo{
+        width:40%;
+    }
+
+    .header-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block !important ; 
+    }
+}
+
+@media only screen and (max-width: 599px){
+
+    /* ボトムナビゲーション */
+    
+    .header-logo{
+        width:75%;
+    }
+
+    .header-list{
+        display: none;
+    }
+    #menu-icon{
+        display: none !important ;
+}
