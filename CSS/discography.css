@@ -23,7 +23,8 @@ main{
   }
 
 .cd-info {
-margin: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .single{
@@ -57,7 +58,6 @@ td{
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
-    
     display: none;
   }
   
