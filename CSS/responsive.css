@@ -47,6 +47,9 @@
         width: 65%;
     }
 
+    #pagetop{
+        padding-top: 20px;
+      }
     
     .artist-img{
         padding-top: 0px;
