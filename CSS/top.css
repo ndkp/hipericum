@@ -20,10 +20,15 @@
 
 .top-left{
   float: left;
-  width: 50%;
+  width: 45%;
   margin-bottom: 80px;
 }
 
 .top-right{
   float:right;
+  padding-bottom: 80px;
+}
+
+.movie{
+  width: 100%;
 }
