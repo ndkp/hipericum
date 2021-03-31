@@ -13,6 +13,13 @@
     #menu-icon{
         display: block !important ; 
     }
+
+    .sns-wrapper{
+        display: flex;
+        width: 200%;
+    }
+      
+      
 }
 
 @media only screen and (max-width: 599px){
@@ -28,4 +35,13 @@
     }
     #menu-icon{
         display: none !important ;
+    }
+
+    .sns-wrapper{
+        display: flex;
+        width: 200%;
+    }
+      
+
+        
 }
