@@ -20,6 +20,9 @@
     top:0;
     left: 0;
     z-index:10;
+    background-image: url(../IMG/stripe.png);
+    background-size: 146px;
+    background-repeat: no-repeat;
   }
   
   .header-logo{
@@ -30,13 +33,7 @@
     left: 3%;
   }
   
-  .stripe{
-    height: 140px;
-    position: absolute;
-      top: 0;
-      left: 0;
-  }
-  
+
   .header-list li{
     font-size: 20px;
     font-weight: bold;
@@ -48,7 +45,7 @@
   #menu-icon{
     color: dimgray;
     float: right;
-    font-size: 76px;
+    font-size: 72px;
     padding: 36px ;  
     display: none !important ; 
   }
