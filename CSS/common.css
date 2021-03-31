@@ -169,3 +169,7 @@
     display: inline-block;
     color: grey;
   }
+
+  #menu{
+    display: none;
+  }

@@ -47,14 +47,6 @@
         width: 65%;
     }
 
-    /* ボトムナビゲーション */
-    .header-list{
-        display: none;
-    }
-    #menu-icon{
-        display: none !important ;
-    }
-
     
     .artist-img{
         padding-top: 0px;
@@ -78,4 +70,39 @@
         height: 100%;
     }
 
+    /* ボトムナビゲーション */
+    .header-list{
+        display: none;
+    }
+    #menu-icon{
+        display: none !important ;
+    }
+
+    .footer-left , .footer-list{
+        display: none;
+    }
+
+    #menu {
+        position: fixed !important;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        background: #FDFAF3;
+        border-top: 1px solid #F0ECEC;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      #menu li {
+        display: table;
+        table-layout: fixed;
+        width: 33%;
+        padding: 5px;
+        list-style: none;
+        text-align: center;
+      }
+      #menu a span {
+        display: block;
+        font-size: 4px;
+      }        display: block ;
+    }
 }
