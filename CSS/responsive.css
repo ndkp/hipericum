@@ -16,8 +16,9 @@
 
     .sns-wrapper{
         display: flex;
-        width: 200%;
+        flex-flow: column;
     }
+
       
       
 }
@@ -39,9 +40,7 @@
 
     .sns-wrapper{
         display: flex;
-        width: 200%;
+        flex-flow: column;
     }
-      
 
-        
 }
