@@ -4,6 +4,8 @@
     font-family: monospace;
     text-align: center;
     color: dimgray;
+    margin: 0;
+    padding: 0;
   }
   
   li {
