@@ -29,17 +29,36 @@
 
 @media only screen and (max-width: 599px){
 
-    /* ボトムナビゲーション */
+
+    header{
+        height: 100px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        }
+
+    .stripe{
+        height: 100px;
+      }
+    
     .header-logo{
-        width:75%;
+        position: unset;
+        float: unset;
+        width: 65%;
     }
 
+    /* ボトムナビゲーション */
     .header-list{
         display: none;
     }
     #menu-icon{
         display: none !important ;
     }
+
+    .artist-img{
+        padding-top: 0px;
+    }
+
 
     /* sns縦並び & 中央よせ */
     .sns-wrapper{
