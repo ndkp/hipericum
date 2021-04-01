@@ -186,8 +186,23 @@
     }
 
     
+    /* contact */
+    .contact{
+        font-size: 12px;
+        width: 90%;
+        margin: auto;
+    }
 
-
-
+    .contact h3,p{
+        margin-bottom: 10px;
+    }
     
+    input,textarea{
+        width:90%;
+        font-size:12px;
+      }
+    
+
+
+
 }
