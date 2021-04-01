@@ -23,7 +23,7 @@
         margin: 0 auto;
     }
 
-       
+}      
 
 /* スマホ向け(599px以下)レイアウト */
 
@@ -202,7 +202,14 @@
         font-size:12px;
       }
     
+    /* profile */
+    #slider, .slide-dots{
+        display: none;
+    }    
 
+    .sp-profile-wrapper, .profile-modal-wrapper{
+        display: block;
+    }
 
 
 }

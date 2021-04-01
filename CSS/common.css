@@ -165,11 +165,6 @@
     padding:20px;
   }
   
-  .small{
-    display: inline-block;
-    color: grey;
-  }
-
   #menu{
     display: none;
   }
