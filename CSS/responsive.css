@@ -125,12 +125,13 @@
         height: 100%;
     }
 
+
     /* discography */
     .cd-list{
         flex-wrap: wrap;
     }
     .cd-list li{
-        width: 50%;
+        width: 100%;
     }
 
     /* ↓モーダル */
@@ -149,11 +150,11 @@
     }
   
     .front{
-      width: 30%;
+      width: 50%;
   }
   
     .back{
-      width: 20%;
+      display: none;
     }
   
   
@@ -164,14 +165,29 @@
   }
     
   .modal-table{
-      clear: both;
+      margin: auto;
+  }
+
+  .modal-cd .date {
+      padding-bottom: 20px;
       text-align: center;
   }
-  
+  .modal-cd h3{
+      display: none;
+  }
+
   .modal-cd-link{
-    padding: 8px 24px;
+    padding: 8px 100px;
     margin-top: 12px;
-}
+    }
+
+    #modal-header{
+        margin-bottom: 36px;
+    }
+
+    
+
+
 
     
 }
