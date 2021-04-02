@@ -2,14 +2,22 @@ body {
     font-family: monospace;
     text-align: center;
     background-color: rgb(250, 244, 231);
+    background-image: url(../IMG/emblem-top.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top -40% left 50%;
   }
 
-.container{
+.index-container{
     position: relative;
+    height: 550px; /* 一般的なファーストビューの縦サイズ */
 }
 
-img{
-    width: 50%;
+ul{
+  position: absolute; 
+  left: 38%;
+  top: 35%;   /* 親要素の高さを指定しないと％で縦方向の位置調整はできない */
+  font-size: 28px;
 }
 
 li {
@@ -18,12 +26,6 @@ li {
   text-align: left;
 }
 
-ul{
-    font-size: 24px;
-    position: absolute;
-    top: 27%;
-    left: 37%;
-}
 
 
 a {
@@ -46,6 +48,6 @@ a {
   }
 
 .mrgleft{
-  margin-left: 16px;
+  margin-left: 24px;
 }
 
