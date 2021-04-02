@@ -23,6 +23,15 @@
         margin: 0 auto;
     }
 
+        /* discography */
+        .cd-list{
+            flex-wrap: wrap;
+        }
+        .cd-list li{
+            width: 50%;
+        }
+    
+
 }      
 
 /* スマホ向け(599px以下)レイアウト */
@@ -134,6 +143,18 @@
         width: 100%;
     }
 
+    .cd-img{
+        width: 50%;
+    }
+    
+    .single, .album{
+        font-size: 12px;
+    }
+    
+    td{
+        font-size: 13px;
+    }
+    
     /* ↓モーダル */
     .modal {
         top: 5%;
@@ -150,7 +171,7 @@
     }
   
     .front{
-      width: 50%;
+      width: 60%;
   }
   
     .back{

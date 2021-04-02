@@ -9,10 +9,11 @@ main{
 
 .cd-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cd-img{
-    width: 50%;
+    width: 25%;
     transition: all 0.6s ease 0s;
     padding-bottom: 16px;
 }
@@ -30,19 +31,19 @@ main{
 .single{
     background-color:skyblue;
     color: royalblue;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .album{
     background-color: #C4A5F7;
     color: rebeccapurple;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 td{
     text-align: left;
     padding-top: 8px;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .cd-title{
@@ -82,24 +83,25 @@ td{
 
     .modal-cd{
       float: left;
-      padding-left: 20px;
+      padding-top: 40px;
+      padding-left: 40px;
   }
 
   .front{
-    width: 23%;
+    width: 30%;
 }
 
   .back{
-    width: 18%;
+    width: 25%;
   }
 
 #modal-header{
-    height: 60%;
+    height: 55%;
 }  
 
 .cdtitle{
     border-bottom: 1px solid rgba(180, 187, 192, 0.8);
-    width: 550px;
+    width: 500px;
     text-align: left;
     padding-bottom: 5px;
 }
