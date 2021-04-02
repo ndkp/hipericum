@@ -95,7 +95,7 @@
         }
         #menu a span {
         display: block;
-        font-size: 6px;
+        font-size: 12px;
         }     
     
 
@@ -146,7 +146,7 @@
     .cd-img{
         width: 50%;
     }
-    
+
     .single, .album{
         font-size: 12px;
     }
@@ -214,7 +214,7 @@
         margin: auto;
     }
 
-    .contact h3,p{
+    .contact h3, .contact p{
         margin-bottom: 10px;
     }
     
@@ -227,10 +227,6 @@
     #slider, .slide-dots{
         display: none;
     }    
-
-    .sp-profile-wrapper, .profile-modal-wrapper{
-        display: block;
-    }
 
 
 }

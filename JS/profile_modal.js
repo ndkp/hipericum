@@ -1,21 +1,11 @@
-$(function(){
-    // モーダル表示
-    $('#sp-ririka').click(function(){
-        $('#modal-ririka').fadeIn();
-      });
+$(function () {
+  $('.js-open').click(function () {
+    var id = $(this).data('id'); // 何番目のキャプション（モーダルウィンドウ）か認識
+    $('#overlay, .modal-window[data-id="modal' + id + '"]').fadeIn();
+  });
 
-    $('#sp-nodoka').click(function(){
-        $('#modal-nodoka').fadeIn();
-      });
-      
-    $('#sp-anna').click(function(){
-        $('#modal-anna').fadeIn();
-      });
-
-    
-    // 閉じるボタンクリックでモーダル非表示
-      $('.close-modal').click(function(){
-        $('.profile-modal-wrapper').fadeOut();
-      });
-      
-    });
+  // オーバーレイクリックでもモーダルを閉じるように
+  $('.js-close , #overlay').click(function () {
+    $('#overlay, .modal-window').fadeOut();
+  });
+});

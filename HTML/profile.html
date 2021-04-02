@@ -161,15 +161,21 @@
         <div class="sp-profile-wrapper">
           <ul class="sp-plofile-list">
             <li class="sp-plofile">
-              <img id="sp-ririka" class="sp-profile-img" src="../IMG/ririka01.jpg" alt="">
+               <a href="#" class="js-modal-open" data-target="modal01">
+                <img id="sp-ririka" class="sp-profile-img" src="../IMG/ririka01.jpg" alt="ririka">
+               </a>
               <p>神田 理利加</p><small>KANDA RIRIKA</small>
             </li>
             <li class="sp-plofile">
-              <img id="sp-nodoka" class="sp-profile-img" src="../IMG/nodoka01.jpg" alt="">
+              <a href="#" class="js-modal-open" data-target="modal02">
+                <img id="sp-nodoka" class="sp-profile-img" src="../IMG/nodoka01.jpg" alt="nodoka">
+              </a>
               <p>咲雲 和奏</p><small>SAKUMO NODOKA</small>
             </li>
             <li class="sp-plofile">
-              <img id="sp-anna" class="sp-profile-img" src="../IMG/anna01.jpg" alt="">
+              <a href="#" class="js-modal-open" data-target="modal03">
+                <img data-target="modal-anna" id="sp-anna" class="sp-profile-img" src="../IMG/anna01.jpg" alt="anna">
+              </a>
               <p>一条 杏奈</p><small>ICHIJO ANNA</small>
             </li>
           </ul>
@@ -178,14 +184,14 @@
 
         <!-- モーダル（スマホ閲覧時） -->
         <!-- ririka -->
-        <div class="profile-modal-wrapper" id="modal-ririka">
+        <div class="profile-modal-wrapper" id="modal01" style="display: none;">
           <div class="profile-modal r-modal">
             <!-- 閉じるボタン -->
             <div class="close-modal">
               <i class="fa fa-5x fa-times"></i>
             </div>　
-            <!-- モーダル上部 -->
-            <div class="modal-header">
+            <!-- モーダル -->
+            <div class="sp-modal">
               <img class="modal-profile-img" src="../IMG/ririka01.jpg" alt="ririka">
               <div class="modal-profile-list">
                 <div class="profile-name"><h1>神田 理利加</h1><small>KANDA RIRIKA</small></div>
@@ -215,14 +221,14 @@
         </div>
 
         <!-- nodoka -->
-        <div class="profile-modal-wrapper" id="modal-nodoka">
+        <div class="profile-modal-wrapper" id="modal02" style="display: none;">
           <div class="profile-modal n-modal">
             <!-- 閉じるボタン -->
             <div class="close-modal">
               <i class="fa fa-5x fa-times"></i>
             </div>
-            <!-- モーダル上部 -->
-            <div class="modal-header">
+            <!-- モーダル -->
+            <div class="sp-modal">
               <img class="modal-profile-img" src="../IMG/nodoka01.jpg" alt="nodoka">
               <div class="modal-profile-list">
                 <div class="profile-name"><h1>咲雲 和奏</h1><small>SAKUMO NODOKA</small></div>
@@ -252,14 +258,14 @@
             </div>
 
         <!-- anna -->
-        <div class="profile-modal-wrapper" id="modal-anna">
+        <div class="profile-modal-wrapper" id="modal03" style="display: none;">
           <div class="profile-modal a-modal">
             <!-- 閉じるボタン -->
             <div class="close-modal">
               <i class="fa fa-5x fa-times"></i>
             </div>
-            <!-- モーダル上部 -->
-            <div class="modal-header">
+            <!-- モーダル -->
+            <div class="sp-modal">
               <img class="modal-profile-img" src="../IMG/anna01.jpg" alt="anna">
               <div class="modal-profile-list">
                 <div class="profile-name"><h1>一条 杏奈</h1><small>ICHIJO ANNA</small></div>
@@ -289,7 +295,7 @@
           </div>
 
 
-              <!-- ボトムナビゲーション -->
+      <!-- ボトムナビゲーション -->
       <div class="bottom-nav">
         <ul id="menu">
           <li>
@@ -334,7 +340,7 @@
         </div>
     </footer>
 
-    <!-- JQuery CDN -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="../JS/slick.js"></script>
     <script type="text/javascript" src="../JS/profile.js"></script>
