@@ -190,7 +190,7 @@ small{
   }
 
   .window-nodoka{
-    background-color: rgba(245, 240, 201, 0.95);
+    background-color: rgba(248, 244, 214, 0.95);
   }
 
   .window-anna{
@@ -223,6 +223,10 @@ small{
         width: 80%;
         margin: auto;
         padding-top: 24px;
+    }
+
+    .detail{
+      padding-top: 20px;
     }
 
     .modal-profile-table th{
