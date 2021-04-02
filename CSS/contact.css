@@ -51,3 +51,7 @@ input,textarea{
 .btn:hover {
     opacity: 1;
 }
+
+.alignleft{
+    text-align: left;
+}
