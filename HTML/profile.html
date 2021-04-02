@@ -157,143 +157,135 @@
 
 
 
-        <!-- スマホ閲覧時 -->
-        <div class="sp-profile-wrapper">
-          <ul class="sp-plofile-list">
-            <li class="sp-plofile">
-               <a href="#" class="js-modal-open" data-target="modal01">
-                <img id="sp-ririka" class="sp-profile-img" src="../IMG/ririka01.jpg" alt="ririka">
-               </a>
-              <p>神田 理利加</p><small>KANDA RIRIKA</small>
-            </li>
-            <li class="sp-plofile">
-              <a href="#" class="js-modal-open" data-target="modal02">
-                <img id="sp-nodoka" class="sp-profile-img" src="../IMG/nodoka01.jpg" alt="nodoka">
-              </a>
-              <p>咲雲 和奏</p><small>SAKUMO NODOKA</small>
-            </li>
-            <li class="sp-plofile">
-              <a href="#" class="js-modal-open" data-target="modal03">
-                <img data-target="modal-anna" id="sp-anna" class="sp-profile-img" src="../IMG/anna01.jpg" alt="anna">
-              </a>
-              <p>一条 杏奈</p><small>ICHIJO ANNA</small>
-            </li>
-          </ul>
-      
-        </div>
 
-        <!-- モーダル（スマホ閲覧時） -->
-        <!-- ririka -->
-        <div class="profile-modal-wrapper" id="modal01" style="display: none;">
-          <div class="profile-modal r-modal">
-            <!-- 閉じるボタン -->
-            <div class="close-modal">
-              <i class="fa fa-5x fa-times"></i>
-            </div>　
-            <!-- モーダル -->
-            <div class="sp-modal">
-              <img class="modal-profile-img" src="../IMG/ririka01.jpg" alt="ririka">
-              <div class="modal-profile-list">
-                <div class="profile-name"><h1>神田 理利加</h1><small>KANDA RIRIKA</small></div>
-                <table class="modal-profile-table">
-                 <tr>
-                  <th class="thr">誕生日</th><td>8月9日</td>
-                 </tr>
-                 <tr>
-                  <th class="thr">出身地</th><td>群馬県</td>
-                 </tr>
-                 <tr>
-                   <th class="thr">趣味</th><td>人間観察</td>
-                 </tr>
-                 <tr>
-                  <th class="thr">特技</th><td>ダンス</td>
-                 </tr>
-                 <tr>
-                  <th class="thr">好きな食べ物</th><td>納豆巻き</td>
-                 </tr>
-                </table>
-                <div class="modal-member-sns">
-                   <a class="member-twitter" href="https://twitter.com/ririka_hprcm"><i class="fab fa-3x fa-twitter  icon twitter"></i></a>
-                   <a class="member-instagram" href="https://instagram.com/ririka_hprcm"><i class="fab fa-3x fa-instagram icon instagram"></i></a>
-                   <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2hbg9C/"><i class="fab fa-3x fa-tiktok icon tiktok"></i></a>
-                </div>        
-            </div>
-        </div>
+        
+   <!-- スマホ閲覧時 -->
+    <!-- オーバーレイ -->
+    <div id="overlay" class="overlay"></div>
 
-        <!-- nodoka -->
-        <div class="profile-modal-wrapper" id="modal02" style="display: none;">
-          <div class="profile-modal n-modal">
-            <!-- 閉じるボタン -->
-            <div class="close-modal">
-              <i class="fa fa-5x fa-times"></i>
-            </div>
-            <!-- モーダル -->
-            <div class="sp-modal">
-              <img class="modal-profile-img" src="../IMG/nodoka01.jpg" alt="nodoka">
+  
+    <!-- ririka -->
+      <div class="modal-window window-ririka" data-id="modal1">
+          <!-- 閉じるボタン -->
+          <div class="js-close button-close"><i class="fa fa-3x fa-times"></i></div>
+          <!-- モーダル -->
+          <div class="sp-modal">
+              <img class="sp-modal-profile-img" src="../IMG/ririka01.jpg" alt="ririka">
               <div class="modal-profile-list">
-                <div class="profile-name"><h1>咲雲 和奏</h1><small>SAKUMO NODOKA</small></div>
-                <table class="modal-profile-table">
-                 <tr>
-                  <th class="thn">誕生日</th><td>5月6日</td>
-                 </tr>
-                 <tr>
-                  <th class="thn">出身地</th><td>大阪府</td>
-                 </tr>
-                 <tr>
-                  <th class="thn">趣味</th><td>アイドル鑑賞</td>
-                </tr>
-                 <tr>
-                  <th class="thn">特技</th><td>探し中</td>
-                 </tr>
-                 <tr>
-                  <th class="thn">好きな食べ物</th><td>くだもの</td>
-                 </tr>
-            </table>
+                  <div class="profile-name"><h1>神田 理利加</h1><small class="sp-small">KANDA RIRIKA</small></div>
+                  <table class="sp-modal-profile-table">
+                  <tr>
+                    <th class="thr">誕生日</th><td>8月9日</td>
+                  </tr>
+                  <tr>
+                    <th class="thr">出身地</th><td>群馬県</td>
+                  </tr>
+                  <tr>
+                    <th class="thr">趣味</th><td>人間観察</td>
+                  </tr>
+                  <tr>
+                    <th class="thr">特技</th><td>ダンス</td>
+                  </tr>
+                  <tr>
+                    <th class="thr">好きな食べ物</th><td>納豆巻き</td>
+                  </tr>
+                  </table>
                   <div class="modal-member-sns">
-                    <a class="member-twitter" href="https://twitter.com/nodoka_hprcm"><i class="fab fa-3x fa-twitter icon twitter"></i></a>
-                    <a class="member-instagram" href="https://instagram.com/nodoka_hprcm"><i class="fab fa-3x fa-instagram icon instagram"></i></a>
-                    <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2h4FGY/"><i class="fab fa-3x fa-tiktok icon tiktok"></i></a>
-                 </div>        
-                </div>
-            </div>
-
-        <!-- anna -->
-        <div class="profile-modal-wrapper" id="modal03" style="display: none;">
-          <div class="profile-modal a-modal">
-            <!-- 閉じるボタン -->
-            <div class="close-modal">
-              <i class="fa fa-5x fa-times"></i>
-            </div>
-            <!-- モーダル -->
-            <div class="sp-modal">
-              <img class="modal-profile-img" src="../IMG/anna01.jpg" alt="anna">
+                      <a class="member-twitter" href="https://twitter.com/ririka_hprcm"><i class="fab fa-x fa-twitter  icon twitter"></i></a>
+                      <a class="member-instagram" href="https://instagram.com/ririka_hprcm"><i class="fab fa-x fa-instagram icon instagram"></i></a>
+                      <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2hbg9C/"><i class="fab fa-x fa-tiktok icon tiktok"></i></a>
+                  </div>        
+              </div>
+          </div>    
+      </div>
+  
+     <!-- nodoka -->
+      <div class="modal-window window-nodoka" data-id="modal2">
+          <!-- 閉じるボタン -->
+          <div class="js-close button-close"><i class="fa fa-3x fa-times"></i></div>　  
+          <!-- モーダル -->
+          <div class="sp-modal">
+              <img class="sp-modal-profile-img" src="../IMG/nodoka01.jpg" alt="nodoka">
               <div class="modal-profile-list">
-                <div class="profile-name"><h1>一条 杏奈</h1><small>ICHIJO ANNA</small></div>
-                <table class="modal-profile-table">
-                 <tr>
-                  <th class="tha">誕生日</th><td>8月27日</td>
-                 </tr> 
-                 <tr>
-                   <th class="tha">出身地</th><td>静岡県</td>
-                 </tr>
-                 <tr>
-                   <th class="tha">趣味</th><td>ハンドメイド</td>
-                 </tr>
-                 <tr>
-                  <th class="tha">特技</th><td>料理</td>
-                 </tr>
-                 <tr>
-                  <th class="tha">好きな食べ物</th><td>餃子</td>
-                 </tr>
-                </table>
-                <div class="modal-member-sns">
-                    <a class="member-twitter" href="https://twitter.com/anna_hprcm"><i class="fab fa-3x fa-twitter icon twitter"></i></a>
-                    <a class="member-instagram" href="https://instagram.com/anna_hprcm"><i class="fab fa-3x fa-instagram icon instagram"></i></a>
-                    <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2hyyH8/"><i class="fab fa-3x fa-tiktok icon tiktok"></i></a>
-                 </div>        
-               </div>
+                  <div class="profile-name"><h1>咲雲 和奏</h1><small class="sp-small">SAKUMO NODOKA</small></div>
+                  <table class="sp-modal-profile-table">
+                  <tr>
+                    <th class="thn">誕生日</th><td>5月6日</td>
+                  </tr>
+                  <tr>
+                    <th class="thn">出身地</th><td>大阪府</td>
+                  </tr>
+                  <tr>
+                    <th class="thn">趣味</th><td>アイドル鑑賞</td>
+                  </tr>
+                  <tr>
+                    <th class="thn">特技</th><td>探し中</td>
+                  </tr>
+                  <tr>
+                    <th class="thn">好きな食べ物</th><td>くだもの</td>
+                  </tr>
+                  </table>
+                  <div class="modal-member-sns">
+                      <a class="member-twitter" href="https://twitter.com/nodoka_hprcm"><i class="fab fa-x fa-twitter icon twitter"></i></a>
+                      <a class="member-instagram" href="https://instagram.com/nodoka_hprcm"><i class="fab fa-x fa-instagram icon instagram"></i></a>
+                      <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2h4FGY/"><i class="fab fa-x fa-tiktok icon tiktok"></i></a>
+                  </div>        
+              </div>
           </div>
-
+      </div>
+  
+    <!-- anna -->
+      <div class="modal-window window-anna" data-id="modal3">
+          <!-- 閉じるボタン -->
+          <div class="js-close button-close"><i class="fa fa-3x fa-times"></i></div>　 
+          <!-- モーダル -->
+          <div class="sp-modal">
+              <img class="sp-modal-profile-img" src="../IMG/anna01.jpg" alt="anna">
+              <div class="modal-profile-list">
+                  <div class="profile-name"><h1>一条 杏奈</h1><small class="sp-small">ICHIJO ANNA</small></div>
+                  <table class="sp-modal-profile-table">
+                  <tr>
+                  <th class="tha">誕生日</th><td>8月27日</td>
+                  </tr> 
+                  <tr>
+                      <th class="tha">出身地</th><td>静岡県</td>
+                  </tr>
+                  <tr>
+                      <th class="tha">趣味</th><td>ハンドメイド</td>
+                  </tr>
+                  <tr>
+                  <th class="tha">特技</th><td>料理</td>
+                  </tr>
+                  <tr>
+                  <th class="tha">好きな食べ物</th><td>餃子</td>
+                  </tr>
+                  </table>
+                  <div class="modal-member-sns">
+                      <a class="member-twitter" href="https://twitter.com/anna_hprcm"><i class="fab fa-x fa-twitter icon twitter"></i></a>
+                      <a class="member-instagram" href="https://instagram.com/anna_hprcm"><i class="fab fa-x fa-instagram icon instagram"></i></a>
+                      <a class="member-tiktok" href="https://vt.tiktok.com/ZSJ2hyyH8/"><i class="fab fa-x fa-tiktok icon tiktok"></i></a>
+                  </div>        
+              </div>
+          </div>
+      </div>
+  
+  
+    <!-- ボタン1 -->
+      <div class="wrap">
+          <img class="js-open button-open" data-id="1" src="../IMG/ririka01.jpg" alt="ririka">
+          <p>神田 理利加<br><span class="small">KANDA RIRIKA</span></p>
+      </div>
+    <!-- ボタン2 -->
+      <div class="wrap">
+          <img class="js-open button-open" data-id="2" src="../IMG/nodoka01.jpg" alt="nodoka">
+          <p>咲雲 和奏<br><span class="small">SAKUMO NODOKA</span></p>
+      </div>
+    <!-- ボタン3 -->
+      <div class="wrap">
+          <img class="js-open button-open" data-id="3" src="../IMG/anna01.jpg" alt="anna">
+          <p>一条 杏奈<br><span class="small">ICHIJO ANNA</span></p>
+      </div>
+  
 
       <!-- ボトムナビゲーション -->
       <div class="bottom-nav">
