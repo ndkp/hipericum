@@ -227,6 +227,8 @@
     #slider, .slide-dots{
         display: none;
     }    
-
-
+    .wrap{
+        display: block;
+    }
+  
 }

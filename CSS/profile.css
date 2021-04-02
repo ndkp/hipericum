@@ -146,6 +146,7 @@ small{
 }
   .wrap{
       padding-bottom: 30px;
+      display: none;
   }
   .wrap p{
       font-size: 24px;
