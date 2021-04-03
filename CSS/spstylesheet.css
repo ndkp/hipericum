@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+    background-color: rgb(250, 244, 231);
+    background-image: url(../IMG/sp-top.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -40% left 50%;
+  }
