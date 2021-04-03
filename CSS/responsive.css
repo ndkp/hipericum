@@ -232,5 +232,36 @@
     }
   
     /* index */
+    body {
+        font-family: monospace;
+        background-color: rgb(250, 244, 231);
+        height: 100%;
+      }
+    
+      .index-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .index-bg{
+        background: url(../IMG/sp-index.PNG);
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 120%;
+        background-size: 100% auto; 
+       }
+
+        .index-list{
+            position: absolute; 
+            left: 16%;
+            top: 22.5%;   
+            font-size: 20px;
+          }
+
 
 }
