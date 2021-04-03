@@ -12,6 +12,7 @@
 .sns-wrapper{
   width: 90%;
   margin: 0 auto;
+  font-size: 12px;
 }
 
 .sns-wrapper h1{
@@ -22,6 +23,10 @@
   float: left;
   width: 45%;
   margin-bottom: 80px;
+}
+
+.top-left h1{
+  margin-bottom: 28px;
 }
 
 .top-right{
