@@ -2,10 +2,6 @@ body {
     font-family: monospace;
     text-align: center;
     background-color: rgb(250, 244, 231);
-    background-image: url(../IMG/emblem-top.png);
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: top -40% left 50%;
   }
 
 .index-container{
@@ -13,11 +9,19 @@ body {
     height: 550px; /* 一般的なファーストビューの縦サイズ */
 }
 
+.index-img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
 ul{
   position: absolute; 
   left: 38%;
   top: 35%;   /* 親要素の高さを指定しないと％で縦方向の位置調整はできない */
-  font-size: 28px;
+  font-size: 2.4vw;
 }
 
 li {

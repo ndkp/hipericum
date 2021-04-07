@@ -265,5 +265,9 @@
             font-size: 20px;
           }
 
+          .index-img{
+              display: none;
+          }
+
 
 }
