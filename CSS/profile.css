@@ -231,7 +231,7 @@ small{
     .modal-member-sns{
         display: flex;
         justify-content: space-evenly;
-        margin-top: 5px;
+        margin-top: 1.5vh;
     }
 
     .sp-small{
