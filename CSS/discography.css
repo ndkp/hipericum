@@ -71,6 +71,9 @@ td{
     border-radius: 10px;
     width: 70%;
     height: 80%;
+    overflow: hidden;
+    overflow-y: auto; /* scrollにはしないことでスクロールの必要がないときはスクロールバーを表示させない */
+
   }
 
   .fa-times {
