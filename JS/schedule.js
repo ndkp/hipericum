@@ -12,7 +12,6 @@
             {
               googleCalendarId: 'info.hipericum@gmail.com',
               backgroundColor: "#F3F5F7",
-              textColor: 'black' // an option!
             }
           ]
         });
