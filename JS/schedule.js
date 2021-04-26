@@ -6,6 +6,8 @@
             left: 'prev,next today',
             center: 'title',
             right: 'listMonth,dayGridMonth',
+            color: 'yellow',   // an option!
+            textColor: 'black' // an option!
           },
           googleCalendarApiKey: 'AIzaSyBCSlo5E13JaKg_1T6bNeOVfHXC7DWdG-A',
           eventSources: [
